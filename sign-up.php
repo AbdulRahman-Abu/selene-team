@@ -141,6 +141,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     <body>
         
+<<<<<<< HEAD
         <header class="head">
             <a href="index.html"><b>Net</b><div class="header">Checker</div></a>
 
@@ -153,6 +154,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </nav>
     </header>
          
+=======
+    
+>>>>>>> 187d7b8f627ca4d3299e44a47779a7d2dbb9cee5
 
         <!-- LOGIN -->
         <section id="login-page">
