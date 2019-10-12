@@ -14,10 +14,6 @@ p {
 a:hover {
     text-decoration: none;
 }
-.head a{
-    text-decoration: none;
-    color: #fff;
-}
 
 /*==============================================================================
 
@@ -45,7 +41,7 @@ a:hover {
     width: 50%;
     height: 100%;
     float: left;
-    background-image: url(../img/bg.jpg);
+    background-image: url(../imgs/bg.jpg);
     border-top: 790px solid transparent;
     border-right: 100px solid #fff;
 }
@@ -84,6 +80,18 @@ a:hover {
 .color-green{
     color: green !important;
 } 
+
+
+.checker{
+	color: #fff;
+	background: deepskyblue;
+	padding:5px 10px;
+	margin-left: 2px;
+    border-radius: 25px;
+	text-decoration: none;
+	text-align: center;
+}
+
 
 
 @media (min-width: 768px) {
@@ -137,3 +145,10 @@ nav a {
 	padding:5px 10px;
 	display: inline;
 }
+
+.head a{
+    text-decoration: none;
+    color: #fff;
+}
+
+

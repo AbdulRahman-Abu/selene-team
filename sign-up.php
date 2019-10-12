@@ -141,6 +141,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     <body>
         
+        <header class="head">
+            <a href="index.html"><b>Net</b><div class="header">Checker</div></a>
+
+
+         <nav>
+            <a href="index.html">Home</a>
+            <a href="sign-in.php">Sign In</a>
+            <a href="sign-up.php">Sign Up</a>
+
+        </nav>
+    </header>
+         
+
         <!-- LOGIN -->
         <section id="login-page">
         
