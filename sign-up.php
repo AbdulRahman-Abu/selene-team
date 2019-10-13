@@ -129,12 +129,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
         <!-- Primary Meta Tags -->
   <title>Register | Team Selene | NetWorth Calculator</title>
-
-
-        
         <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -148,7 +146,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="login__container">
                 <div class="wrapper">
-        <h2>Sign Up</h2>
+        <h2 class="mb-2">Sign Up</h2>
         <p>Please fill this form to create an account.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 
@@ -185,7 +183,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             
             <div class="form__group">
                 <input type="submit" class="btn btn--blue" value="Submit">                
-                <input type="reset" class="btn btn--white" value="Reset">
+                <!-- <input type="reset" class="btn btn--white" value="Reset"> -->
 
             </div>
             <p>Already have an account? <a class="links" href="sign-in.php">Login here</a>.</p>
@@ -193,7 +191,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </div>    
             </div>
         </section>
-        
         <script src="" async defer></script>
     </body>
 </html>

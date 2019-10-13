@@ -51,6 +51,7 @@
 .default-item {
   padding: 10px;
   margin: 0 10px;
+  width: 100px;
 }
 .default-item a {
   text-decoration: none;
@@ -67,11 +68,13 @@
     height: 100% !important;
   }
   .test{
-    padding-left: 0;
-    text-align: center
+    padding: 10px 0 0 0;
+    text-align: center; 
   }
-  .default-item {
-    padding: 10px;
+  .default-item{
+    margin: 10px auto;
+    width: 300px;
+   
   }
 }
 
@@ -79,28 +82,29 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg  default">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.html">
   <b>Net</b><span class="checker">Checker</span>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="nav navbar-nav navbar-right test">
-      <li class="nav-item default-item">
-        <a href="faq.php" style='color:#d35908'><strong>Frequently Asked Questions</strong> </a>
+      
+      <li class="nav-item default-item checker">
+        <a href="sign-up.php" ><strong>Signup</strong> </a>
         </li>
-        <li class="nav-item default-item">
-        <a href="sign-in.php" style='color:#d35908'><strong>sign in</strong> </a>
+        <li class="nav-item default-item checker">
+        <a href="sign-in.php"><strong>sign in</strong> </a>
         </li>
-        <li class="nav-item default-item">
-        <a href="sign-up.php" style='color:#d35908'><strong>Signup</strong> </a>
+       
+        <li class="nav-item default-item checker">
+          <a href="faq.php" ><strong>FAQ</strong> </a>
         </li>
     </ul>
   </div>
 </nav>
-<h2 class='text-center'>Frequently Asked Questions</h2><br>
+<h2 class='text-center mt-2'>Frequently Asked Questions</h2><br>
 <div class='default-faq'>
 <button class="accordion">What exactly is net worth?</button>
 <div class="panel">
@@ -129,7 +133,7 @@
 </div></p>
 </div>
 
-<div class="text-center">
+<div class="text-center mb-5">
 <a href="sign-up.php" class="checker started">GET STARTED</a>
 </div>
 <script>
