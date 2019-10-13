@@ -11,23 +11,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/64f240fcea.js"></script>
+        
+        <!-- bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         
     </head>
     <body>
         
         <section class="main_wrapper">
-
-            <div class="topbar">
-                <p><b>Net</b><span class="checker">Checker</span>
-                <div class="resp">
-                    <a href="sign-up.php" class="checker chk checker-extra-padding">Sign Up</a>
-                    <a href="sign-in.php" class="checker chk checker-extra-padding">Sign In </a>	
-                    <a href="index.html" class="checker chk checker-extra-padding">Home</a>
-                    <!-- <a href="team.php" class="checker chk checker-extra-padding">About Us</a> -->
+            
+            
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html">Net Checker</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link active pr-5" href="index.html">Home</a>
+                        <a class="nav-link pr-5" href="sign-in.php">Sign In</a>
+                        <a class="nav-link pr-5" href="sign-up.php">Sign Up</a>
+                    </div>
                 </div>
-            </p>			
-			</div>
+            </nav>
 
             <header class="header">
                 <img src="imgs/networth_img.jpg" alt="NetWorth">
@@ -65,6 +72,13 @@
 				
             </div>
         
-        <script src="" async defer></script>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        
+        <!-- bootstrap Javascript -->
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        
+        <!-- Javascript file -->
+        <script src="js/script.js"></script>
     </body>
 </html>
