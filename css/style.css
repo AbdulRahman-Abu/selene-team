@@ -43,9 +43,6 @@
   padding-left: 35rem;
   
 }
-.navbar-toggler {
-  background: #fff;
-}
 @media only screen and (max-width: 550px) {
   .default {
     height: 100% !important;

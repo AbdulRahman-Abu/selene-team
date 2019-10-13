@@ -105,12 +105,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
         <!-- bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-
         
         <!-- style.css -->
         <link rel="stylesheet" href="css/login.css">
-        
     </head>
     
     <body>
@@ -168,14 +165,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                                         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                             <div class="form-group mt-5 <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                                                <input type="email" class="form-control form__input input-field" id="email" name="username" value="<?php echo $username; ?>" placeholder="Enter Email Address" required>
+                                                <input type="email" class="form-control input-field" id="email" name="username" value="<?php echo $username; ?>" placeholder="Enter Email Address" required>
                                                 <span class="help-block color-red"><?php echo $username_err; ?></span>
                                             </div>
                                             <div class="form-group mt-4 <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                                                <input type="password" class="form-control input-field form__input" id="pwd" name="password"  placeholder="Enter Password" required>
+                                                <input type="password" class="form-control input-field" id="pwd" name="password"  placeholder="Enter Password" required>
                                                 <span class="help-block color-red"><?php echo $password_err; ?></span>
                                             </div>
-                                            <div class="container mt-4 mb-4">
+                                            <div class="container mt-4">
                                                 <div class="row d-flex justify-content-between">
                                                     <div class="form-check">
                                                         <label class="form-check-label">
@@ -187,12 +184,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="form__group">
-                <input type="submit" class="btn btn--blue" value="Submit">                
-                <!-- <input type="reset" class="btn btn--white" value="Reset"> -->
 
-            </div>
-                                            <!-- <button type="submit" name="submit" class="mt-4 col-3 btn btn-primary btn-lg submit-button">Login</button> -->
+                                            <button type="submit" name="submit" class="mt-4 col-3 btn btn-primary btn-lg submit-button">Login</button>
                                         </form>
                                         <div class="opp-page mt-4">
                                             <p>Don't have an account? <a href="sign-up.php">Sign Up Now</a></p>
