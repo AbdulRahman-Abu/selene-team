@@ -23,7 +23,7 @@
   font-size: 15px;
   transition: 0.4s;
 }
-.active, .accordion:hover {
+.accordion:hover {
   background-color: #ccc; 
 }
 
@@ -81,29 +81,20 @@
 </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg  default">
-  <a class="navbar-brand" href="index.html">
-  <b>Net</b><span class="checker">Checker</span>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="nav navbar-nav navbar-right test">
-      
-      <li class="nav-item default-item checker">
-        <a href="sign-up.php" ><strong>Signup</strong> </a>
-        </li>
-        <li class="nav-item default-item checker">
-        <a href="sign-in.php"><strong>sign in</strong> </a>
-        </li>
-       
-        <li class="nav-item default-item checker">
-          <a href="faq.php" ><strong>FAQ</strong> </a>
-        </li>
-    </ul>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Net Checker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active pr-5" href="index.html">Home</a>
+                <a class="nav-link pr-5" href="sign-in.php">Sign In</a>
+                <a class="nav-link pr-5" href="sign-up.php">Sign Up</a>
+                <a class="nav-link pr-5" href="faq.php">FAQ </a>	
+            </div>
+        </div>
+    </nav>
 <h2 class='text-center mt-2'>Frequently Asked Questions</h2><br>
 <div class='default-faq'>
 <button class="accordion">What exactly is net worth?</button>
@@ -130,7 +121,7 @@
 <button class="accordion">How do you account for outstanding car loans and mortgage payments?</button>
 <div class="panel">
   <p>When incorporating existing loans into your net worth calculation, you cannot truly consider houses or vehicles as assets until they’ve been paid for in full. So if you took out a $100,000 mortgage and have paid off $99,000, your home is still considered a $1,000 liability. But once you’ve made your last payment your home becomes a $100,000 asset</p>
-</div></p>
+</div>
 </div>
 
 <div class="text-center mb-5">
