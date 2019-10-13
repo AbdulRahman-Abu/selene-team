@@ -192,7 +192,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
         </section>
         <script src="" async defer></script>
+      <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        
+        <!-- bootstrap Javascript -->
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        
+        <!-- Javascript file -->
+        <script src="js/script.js"></script>
     </body>
 </html>
 
 
+
+        
+        
+
+ 

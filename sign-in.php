@@ -114,6 +114,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </head>
     
     <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">Net Checker</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active pr-5" href="index.html">Home</a>
+                    <a class="nav-link pr-5" href="sign-in.php">Sign In</a>
+                    <a class="nav-link pr-5" href="sign-up.php">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+     
         
         <!-- LOGIN -->
         <section id="login-page">
@@ -202,9 +216,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
         <!-- bootstrap Javascript -->
         <script src="js/bootstrap/bootstrap.min.js"></script>
-        
-        <!-- animated wow JS file -->
-        <script src="js/wow/wow.min.js"></script>
         
         <!-- Javascript file -->
         <script src="js/script.js"></script>
