@@ -18,7 +18,49 @@
     /* box-shadow: 0 1.5rem 4rem rgba($color-black, .2); */
     position: relative;
 }
+/* navbar section */
 
+.default{
+    height: 100% !important;
+    position: relative !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em !important;
+    padding: 1em 0.63em !important;
+    overflow: hidden;
+    background-image: linear-gradient(135deg,#000000 0%,#7f8c8d 74%);
+    color: red;
+}
+.default-item {
+  padding: 10px;
+  margin: 0 10px;
+  width: 100px;
+}
+.default-item a {
+  text-decoration: none !important;
+  color:#fff;
+}
+.test {
+  padding-left: 35rem;
+  
+}
+.navbar-toggler {
+  background: #fff;
+}
+@media only screen and (max-width: 550px) {
+  .default {
+    height: 100% !important;
+  }
+  .test{
+    padding: 10px 0 0 0;
+    text-align: center; 
+  }
+  .default-item{
+    margin: 10px auto;
+    width: 300px;
+   
+  }
+}
+/* end of navbar  */
 /* LANDING PAGE CSS */
 .main_wrapper {
    width: 100%;
@@ -26,11 +68,11 @@
 }
 
 .topbar {
-    height: 3rem !important;
+    height: 1rem !important;
     position: relative !important;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1em !important;
-    padding:2em 0.63em !important;
+    padding:1.5em 0.63em !important;
     overflow: hidden;
     margin-bottom: -50px;
     background-image: linear-gradient(135deg,#000000 0%,#7f8c8d 74%);
@@ -64,11 +106,13 @@
 .checker{
 	color: #fff;
 	background: deepskyblue;
-	padding:5px 10px;
-	margin-left: 2px;
+	padding: .5rem 1rem;
+	/* margin-left: 2px; */
     border-radius: 25px;
 	text-decoration: none;
-	text-align: center;
+    text-align: center;
+   
+    
 }
 
 .resp{
@@ -78,12 +122,17 @@
 
 .started {
     font-family: 'Raleway', sans-serif;
-    color: deepskyblue; 
+    color: #fff; 
     background: #000;
     padding: .5rem 1rem;
     display: inline-block;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    text-decoration: none !important;
 }
+.started:hover{
+    color: #fff !important;
+}
+
 
 .align-right {
     text-align: right;
@@ -135,7 +184,7 @@ header img {
     .chk{
         float: none;
         display: inline-block;
-        margin-top: 25px;
+        /* margin-top: 25px; */
         text-align: center;
         font-size: small
     }
@@ -392,7 +441,6 @@ form {
         position: relative;
         font-size: 1rem;   
         margin-bottom: .5rem;
-       
         border: none;
         cursor: pointer;
 }
@@ -417,6 +465,7 @@ form {
 .btn--blue {
     background-color: deepskyblue;
     color: #fff;
+    width: 100% !important;
 }
 
 .btn-blue::after {
@@ -437,7 +486,7 @@ form {
 .links:active {
         color: deepskyblue;
         box-shadow: 0 1rem 2rem rgba(0,0,0, .4);
-        transform: rotate(5deg) scale(1.3);
+        /* transform: rotate(10deg) scale(1.3); */
 }
 
 /* forgot password*/
@@ -455,3 +504,17 @@ form {
     color: green!important;
     font-size: 18px!important;
 }
+/* footer start here */
+
+.footer-section {
+    background: #000;
+    }
+    .my-list a,
+    .footer-copyright a{
+    text-decoration: none;
+    color: #fff !important;
+    }
+    .footer-copyright a:hover {
+    text-decoration: underline !important; 
+
+    }

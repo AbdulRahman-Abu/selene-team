@@ -80,6 +80,44 @@ a:hover {
 .color-green{
     color: green !important;
 } 
+.form__input {
+    font-size: 1.2em;
+    font-family: inherit;
+    color: inherit;
+    padding: .8rem 2rem;
+    border-radius: 8px;
+    background-color: rgba(255,255,255, .5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    box-shadow: 1px 1px 2px rgba(0,0,0, .1);
+    width: 100%; 
+    display: block;
+    transition: all .3s;
+}
+.btn--blue {
+    background-color: deepskyblue;
+    color: #fff;
+    width: 100% !important;
+}
+
+.btn-blue::after {
+    background-color: deepskyblue;
+}   
+.btn,
+.btn:link,
+.btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: .4rem 1.8rem;
+        display: inline-block;
+        border-radius: 1.3rem;
+        transition: all .2s;
+        position: relative;
+        font-size: 1rem;   
+        margin-bottom: .5rem;
+        border: none;
+        cursor: pointer;
+}
 
 
 .checker{
